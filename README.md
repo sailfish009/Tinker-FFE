@@ -10,6 +10,8 @@ $ sudo mkdir /usr/java
 
 $ sudo ln -s /usr/lib/jvm/java-1.8.0-amazon-corretto/ /usr/java/default
 
+$ mkdir <$HOME>/ffe/build/tmp/ && cd <$HOME>/ffe/ && cp source/tinker.tgz build/tmp && cd build/tmp && tar xf tinker.tgz
+
 $ cp /usr/lib/gcc/x86_64-linux-gnu/7/libgfortran.a <$HOME>/ffe/build/tmp/tinker/lib/linux/
 
 $ cp /usr/lib/gcc/x86_64-linux-gnu/7/libgomp.a  <$HOME>/ffe/build/tmp/tinker/lib/linux/  
@@ -23,6 +25,8 @@ $ cp /usr/lib/x86_64-linux-gnu/libfftw3.a  <$HOME>/ffe/build/tmp/tinker/lib/linu
 $ cp /usr/lib/x86_64-linux-gnu/libfftw3_omp.a  <$HOME>/ffe/build/tmp/tinker/lib/linux/  
 
 $ cp /usr/lib/x86_64-linux-gnu/libfftw3_threads.a  <$HOME>/ffe/build/tmp/tinker/lib/linux/  
+
+$ rm tinker.tgz && tar zcf tinker.tgz tinker && cp tinker.tgz ../source/
 
 
 <H2><B>Introduction</B></H2>
