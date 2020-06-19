@@ -10,6 +10,21 @@ $ sudo mkdir /usr/java
 
 $ sudo ln -s /usr/lib/jvm/java-1.8.0-amazon-corretto/ /usr/java/default
 
+$ cp /usr/lib/gcc/x86_64-linux-gnu/7/libgfortran.a <$HOME>/ffe/build/tmp/tinker/lib/linux/
+
+$ cp /usr/lib/gcc/x86_64-linux-gnu/7/libgomp.a  <$HOME>/ffe/build/tmp/tinker/lib/linux/  
+
+$ cp /usr/lib/gcc/x86_64-linux-gnu/7/libquadmath.a  <$HOME>/ffe/build/tmp/tinker/lib/linux/  
+
+$ cp /usr/lib/gcc/x86_64-linux-gnu/7/libgcc.a  <$HOME>/ffe/build/tmp/tinker/lib/linux/  
+
+$ cp /usr/lib/x86_64-linux-gnu/libfftw3.a  <$HOME>/ffe/build/tmp/tinker/lib/linux/  
+
+$ cp /usr/lib/x86_64-linux-gnu/libfftw3_omp.a  <$HOME>/ffe/build/tmp/tinker/lib/linux/  
+
+$ cp /usr/lib/x86_64-linux-gnu/libfftw3_threads.a  <$HOME>/ffe/build/tmp/tinker/lib/linux/  
+
+
 <H2><B>Introduction</B></H2>
 
 The Tinker-FFE ("Force Field Explorer") software is a Java-based GUI for molecular design and engineering, originally written by Prof. Michael J. Schnieders, now in the Department of Biomedical Engineering at the University of Iowa. In addition to a variety of general molecular modeling and visualization capabilities, Tinker-FFE enables launch and control of Tinker calculations from an easy-to-use graphical interface. Molecular and biomolecular structures can be downloaded from the PubChem, NCBI and PDB databases. The Tinker-FFE package runs on Linux, Macintosh and Windows systems.
