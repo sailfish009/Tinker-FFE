@@ -33,6 +33,9 @@ $ cp -a <Tinker-FFE_binary_package>/.install4j/ <$HOME>/ffe/build/
 $ cp -a <Tinker-FFE_binary_package>/ffe/Force\ Field\ Explorer <$HOME>/ffe/build/ffe/
 
 
+* Tinker-FFE_binary_package_installer: https://dasher.wustl.edu/tinker/downloads/ffe-linux-8.7.2.sh.gz
+
+
 <H2><B>Introduction</B></H2>
 
 The Tinker-FFE ("Force Field Explorer") software is a Java-based GUI for molecular design and engineering, originally written by Prof. Michael J. Schnieders, now in the Department of Biomedical Engineering at the University of Iowa. In addition to a variety of general molecular modeling and visualization capabilities, Tinker-FFE enables launch and control of Tinker calculations from an easy-to-use graphical interface. Molecular and biomolecular structures can be downloaded from the PubChem, NCBI and PDB databases. The Tinker-FFE package runs on Linux, Macintosh and Windows systems.
