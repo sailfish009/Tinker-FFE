@@ -1,5 +1,7 @@
 # Tinker-FFE: Molecular Engineering GUI for Tinker
 
+$ cd $HOME
+
 $ git clone https://github.com/TinkerTools/Tinker-FFE
 
 $ mv Tinker-FFE ffe
