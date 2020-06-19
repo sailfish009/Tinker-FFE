@@ -28,6 +28,10 @@ $ cp /usr/lib/x86_64-linux-gnu/libfftw3_threads.a  <$HOME>/ffe/build/tmp/tinker/
 
 $ rm tinker.tgz && tar zcf tinker.tgz tinker && cp tinker.tgz ../source/
 
+$ cp -a <Tinker-FFE_binary_package>/.install4j/ <$HOME>/ffe/build/
+
+$ cp -a <Tinker-FFE_binary_package>/ffe/Force\ Field\ Explorer <$HOME>/ffe/build/ffe/
+
 
 <H2><B>Introduction</B></H2>
 
